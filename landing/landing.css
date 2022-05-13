@@ -586,7 +586,12 @@ list-style: none;
       {
             margin-right: 25px;
             font-size: 25px;
+           
       }
+      .main_content img
+       {
+            height: 400px;
+      };
 }
 
 @media(max-width :768px)

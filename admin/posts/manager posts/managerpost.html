@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>S-admin</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+            integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+            integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="managerposts.css">
+</head>
+
+<body>
+      <!-- <div class="header"> -->
+            <div class="header_menu">
+                  <div class="logo">
+                        <img src="logo.jpeg" alt="logo">
+                  </div>
+                  <div class="header_text">
+                        <h2>Serge ISHIMWE</h2>
+                  </div>
+            </div>
+      <div class="container_corrrect">
+            <div class="main_column1">
+                  <div class="main_image">
+                        <img src="sergeP.JPG" alt="">
+                  </div>
+                  <div class="main_title">
+                        <div class="main_text">
+                              <ul>
+                                    <li>
+                                          <a href=""><span></span><span>posts <span><i
+                                                                  class="fa-solid fa-circle-chevron-down"></i></span></a>
+                                          <ul>
+                                                <li>
+                                                      <a href="/admin/posts/manager post/addposts.html"><span></span><span>add
+                                                                  posts</span></a>
+                                                </li>
+                                                <!-- <li>
+                                                             <a href="/admin-page/dashboard/dashboard.html"><span></span><span>remove posts</span></a>
+                                                       </li> -->
+                                                <li>
+                                                      <a
+                                                            href="/admin/dashboard/dashboard.html"><span></span><span>managerpost</span></a>
+                                                </li>
+                                          </ul>
+                                    </li>
+                                    <!-- <li>
+                                          <a href=""><span></span><span>views <i
+                                                            class="fa-solid fa-circle-chevron-down"></i></span></a>
+                                          <ul>
+                                                <li>
+                                                      <a href="/admin-page/dashboard/dashboard.html"><span></span><i
+                                                                  class="fa-solid fa-envelope-open-text"></i><span>message</span></a>
+                                                </li>
+                                                <li>
+                                                      <a href=""><span></span><i
+                                                                  class="fa-solid fa-comment"></i><span>comment</span></a>
+                                                </li>
+                                          </ul>
+                                    </li> -->
+                                    <li>
+                                          <a id="logout"><span><i
+                                                            class="fa-solid fa-arrow-right-from-bracket"></i></span><span>logout</span></a>
+                                    </li>
+                                    <!-- <li>
+                                          <a id="logout"><span><i
+                                                            class="fa-solid fa-arrow-right-from-bracket"></i></span><span>Blog</span></a>
+                                    </li> -->
+                              </ul>
+                        </div>
+                  </div>
+            </div>
+            <div class="main0">
+                  <div class="column1">
+                        <a href="/admin/posts/manager post/addposts.html" class="btn">add posts</a>
+                        <a href="" class="btn">manager posts</a>
+                  </div>
+                  <div class="content1">
+                        <h2 class="page-title">manager posts</h2>
+                        <table id="table">
+                              <thead>
+                                    <th>Date created</th>
+                                    <th>Title</th>
+                                    <th>Comments on the post</th>
+                                    <th colspan="3">Action</th>
+                              </thead>
+                              <tbody id="items">
+                                    <!-- <tr>
+                                          <td>1</td>
+                                          <td>This is the first post</td>
+                                          <td>7</td>
+                                          <td><a href="/admin-page/posts/manager post/addposts.html"
+                                                      class="edit">edit</a></td>
+                                          <td><a href="#" class="delete">delete</a></td>
+                                          <!-- <td><a href="#" class="publish">publish</a></td> -->
+                                    </tr> -->
+                              </tbody>
+                        </table>
+                  </div>
+            </div>
+      </div>
+      </div>
+      </div>
+      <script type="module" src="../../../Login/Login/logout.js"></script>
+      <!-- <script type="text/javascript" src="../../../Login_page/sign-in/sigin-in.html"></script> -->
+      <script type="module" src="./interactioning.js"></script>
+</body>
+
+</html>

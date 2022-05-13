@@ -1,0 +1,432 @@
+*
+{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+.header
+{
+      height: 80px;
+      width: 100%;
+      background: #34495e;
+      display: flex;
+      justify-content: space-between;
+}
+.header_logo img
+{
+    height: 60px;
+    width: 50px;
+    padding: 10px 100px;
+    border-radius: 50%;
+}
+.header_menu 
+{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+font-size: 1vw;
+color: #fff;
+text-transform: uppercase;
+gap: 50px;
+padding-right: 80px;
+text-decoration: none;
+list-style: none;
+}
+.header_menu li a
+{
+      font-size: 1vw;
+      color: #fff; 
+      text-decoration: none;
+       list-style: none;     
+}
+.header_menu-1:hover,
+.header_menu-2:hover,
+.header_menu-3:hover,
+.header_menu-4:hover,
+.header_menu-5:hover
+{
+      border: 1px solid white;
+      transition: .5s;
+      padding: 5px;
+}
+/*.auth_content
+{
+      width: 40%;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 5px;
+      border: 2px solid darkgoldenrod;
+      padding: 50px;
+      position: relative;
+}
+.auth_content form div
+{
+      margin-bottom: 50px;
+      position: relative;
+}
+.auth_content .title
+{
+      text-align: center;
+      text-transform: capitalize;
+      margin-bottom: 30px;
+      color: rgb(68, 60, 60);
+      font-size: 30px;
+      margin-right: 80px;
+      position: relative;
+}
+label
+{
+      text-transform: capitalize;
+      font-size: 25px;
+      position: absolute;
+      top: -25px;
+      font-weight: 500;
+}
+.input-text
+{
+      font-size: 25px;
+      border-radius: 10px;
+}
+.btn-big
+{
+      text-align: center;
+      font-size: 15px;
+      text-transform: capitalize;
+      padding: 5px;
+      background-color: #fb8500;
+      border-radius: 8px;
+}
+p{
+  font-size: 30px;  
+  text-align: center; 
+   
+}*/
+.footer
+{
+      background-color: #24262b;
+      padding: 0px 0;
+
+}
+.footer_col
+{
+      width: 25%;
+     padding: 0 15px;
+
+}
+.footer_col h4
+{
+      font-size: 24px;
+      color: #ffff;
+      text-transform: capitalize;
+      margin-bottom: 30px;
+      font-weight: 500;
+      position: relative;
+}
+.footer_col h4::before
+{
+      content: "";
+      position: absolute;
+      left: 0px;
+      bottom: -10px;
+      background-color: #Bd960b;
+      height: 2px;
+      width: 50px;
+      box-sizing: border-box;
+}
+.row
+{
+      padding: 40px 20px;
+}
+.footer_col ul li:not(:last-child)
+{
+      margin-bottom: 10px;
+}
+.footer_col ul li a
+{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #ffff;
+    text-decoration: none;  
+    font-weight: 300;
+    color: #000;
+     transition: all 0.3s ease;
+}
+.btn
+{
+      background-color: #Bd960b;
+      padding: 0.3rem;
+      font-size: 10px;
+      text-transform: capitalize;
+    
+}
+.footer_col ul li 
+{
+list-style: none;
+text-decoration: none;
+}
+.footer_col ul li a:hover
+{
+      padding: 8px;
+      color: #2c2405;
+}
+.footer_col .social_media a
+{
+      height: 40px;
+      width: 40px;
+      background-color: rgba(255,255,255,0.2);
+      margin: 0 10px 10px 0;
+      line-height: 40px;
+      border-radius: 50%;
+      color: rgb(245, 238, 238);
+      transition: all 0.5s ease;
+      text-align: center;
+      display: inline-block;
+      justify-content: center;
+}
+.footer_col .social_media a:hover
+{
+ color: #Bd960b;
+ background-color: #fff;     
+}
+.footer_col .inputbox
+{
+      position: relative;
+      width: 100%;
+      margin-top: 10px;
+}
+.footer_col .inputbox input
+{
+   width: 80%;
+   padding: 5px 0;
+   font-size: 24px;
+   margin: 10px 0;
+   border: none;
+   border-bottom: 2px solid #333;
+   outline: none; 
+   resize: none;  
+   border-radius: 10px;
+}
+.footer_col .inputbox span
+{
+    position: absolute;
+    left: 0;
+     padding: 5px 0;
+     font-size: 16px;
+     margin: 10px 0;
+     pointer-events: none;
+     transition: 0.5s;
+     color: #666; 
+    
+}
+.footer_col .inputbox input:focus ~ span,
+.footer_col .inputbox input:valid ~ span
+{
+      color: #Bd960b;
+      font-size: 12px;
+      transform: translateY(-20px);
+}
+.footer_col .inputbox input[type="submit"]
+{
+      width: 100px;
+      background: #Bd960b;
+      color:#fff;
+      border: none;
+      cursor: pointer;
+      padding: 10px;
+      font-size: 18px;
+      justify-content: center;
+}
+.row
+{
+      display: flex;
+      grid-template-columns: 15% 15% 35% 35%;
+      background-color: #34495e;
+      justify-content: center;
+}
+/*.form_box
+{
+      width: 390px;
+      background-color: rgba(190, 187, 187, 0.4);
+      border: 1px solid rgb(255,180,0);
+      padding: 50px;
+      margin: 50px auto; 
+      justify-content: center;
+}
+.user_logo
+{
+      width: 80px;
+      height: 80px;
+      background-color: rgb(255,180,0);
+      border-radius: 50%;
+      position: relative;
+      left: calc(320px/3.5);
+      top: -90px;
+}
+.userlogo i
+{
+      font-size: 5rem;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+}
+.form_box h2
+{
+      text-align: center;
+      font-size: 3rem;
+      margin-bottom: 3rem;
+      letter-spacing: 2px;
+}
+.form_box label,
+.form_box label
+{
+      display: block;
+      width: 30%;
+}
+.input-text
+{
+      font-size: 25px;
+      border-radius: 10px;
+}
+.user_name
+{
+     font-size: 1rem;
+     font-weight: 600;
+}
+.form_box input[type = "text"],
+.form_box input[type = "password"]
+{
+      border: none;
+      background: transparent;
+      border-bottom: 1px solid rgb(255,180,0);
+}
+input::placeholder
+{
+      height: 50px;
+      color: rgb(170, 164, 164);
+      letter-spacing: 0.5px;
+}
+.form_box input[type = "text"]:focus,
+.form_box input[type = "password"]:focus
+{
+      background-color: rgb(255,180,0);
+      letter-spacing: 1px;
+}
+.check_box
+{
+      padding: 0.5rem 0;
+      color: white;
+}
+.check_box label,
+.check_box input{
+      display: inline;
+      color:rgb(170, 164, 164);
+}
+.check_box a
+{
+      text-decoration: 0;
+}
+.form_box input[type="submit"]
+{
+      background-color: rgb(255,180,0);
+      border: none;
+      border-radius: 25px;
+      color: white;
+      font-size: 1.2rem;
+      font-weight: 500;
+}
+.form_box input[type="submit"]:hover
+{
+      background: #34495e;
+      cursor: pointer;
+}
+.form_box input[type="submit"]:active
+{
+      background: greenyellow;
+      color: #000;
+      outline: none;
+}
+.more
+{
+      margin-top: 1rem;
+      text-align: center;
+}
+.more a
+{
+    color: darkgray;
+}*/
+.contactform
+{
+      width: 40%;
+      padding: 40px;
+      background: #fff;
+      margin-right: 6rem;
+      margin: 50px auto;
+      border: 1px solid #24262b;
+}
+.contactform h2
+{
+      font-size: 30px;
+      color: #333;
+      font-weight: 500;
+      text-align: center;
+}
+.contactform .inputbox
+{
+      position: relative;
+      width: 70%;
+      margin-top: 10px;
+}
+.contactform .inputbox input,
+.contactform .inputbox textarea
+{
+      width: 100% ;
+      padding: 5px 0;
+      font-size: 16px;
+      margin: 10px 0;
+      border: none;
+      border-bottom: 2px solid #333;
+      outline: none;
+      resize: none;
+}
+.contactform .inputbox span
+{
+      position: absolute;
+      left: 0;
+      padding: 5px 0;
+      font-size: 16px;
+      margin: 10px 0;
+      pointer-events: none;
+      transition: 0.5s;
+      color: #666;
+}
+.contactform .inputbox input:focus ~ span,
+.contactform .inputbox input:valid ~ span,
+.contactform .inputbox textarea:focus ~ span,
+.contactform .inputbox textarea:valid ~ span
+{
+      color: #e91e63;
+      font-size: 12px;
+      transform: translateY(-20px);
+}
+.contactform .inputbox button
+{
+      width: 100px;
+      background: #fc8500;
+      color: #000;
+      border: none;
+      cursor: pointer;
+      padding: 10px;
+      font-size: 18px;
+}
+.isOutput
+{
+      margin: 20px;
+}
+fieldset
+{
+      margin: 20px;
+}
